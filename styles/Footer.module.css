@@ -1,0 +1,111 @@
+.main {
+    position: relative;
+    width: 375px;
+    margin: 0 auto;
+    
+}
+
+.separator {
+    background-color: #FAFAFA;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    top: -112px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px; /* Need a specific value to work */
+    z-index: 1;
+    background: transparent;
+}
+
+.separator > div {
+    margin: 0 auto;
+    width: 1px;
+    height: 84px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    border: 1px solid #87879D;
+}
+
+.separator > p {
+    margin: 0 auto;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #87879D;
+    background: #FAFAFA;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 50%;
+}
+
+.container {
+    width: 375px;
+    margin: 112px auto 0 auto;
+    padding:0 24px 56px 24px;
+    overflow: hidden;
+    position: relative;
+    background: #4D96A9;
+}
+
+.content:before {
+    content: "";
+    background: url("./../public/images/image-footer-mobile.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.firstButton {
+    position: relative;
+    display: block;
+    padding: 1em 2em;
+    background: #855FB1;
+    border-radius: 29px;
+    border-width: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 0 auto 16px auto;
+    z-index: 0;
+}
+
+.firstButton:hover {
+    background: #B18BDD;
+    cursor: url("./../public/images/Pointer.png"), auto;
+}
+
+.firstButton > span {
+    color: #D9B8FF;
+}
+
+.content > h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #FAFAFA;
+    margin-top:92px;
+}
+
+.content > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FAFAFA;
+    margin-bottom: 32px;
+}

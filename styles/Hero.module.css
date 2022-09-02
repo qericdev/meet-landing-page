@@ -1,0 +1,97 @@
+.container {
+    width: 375px;
+    margin: 0 auto;
+    padding:0 24px 64px 24px;
+    overflow: hidden;
+    background-color: #FAFAFA;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 54px;
+    width: 119px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.images > img {
+    width: 199px;
+    height: 153px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 48px;
+}
+
+.container > h1 {
+    width: 327px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: #28283D;
+    margin-bottom: 0;
+}
+
+.container > p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879D;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstButton {
+    padding: 1em 2em;
+    background: #4D96A9;
+    border-radius: 29px;
+    border-width: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.firstButton:hover {
+    background: #71C0D4;
+    cursor: url("./../public/images/Pointer.png"), auto;
+}
+
+.firstButton > span {
+    color: #8FE3F9;
+}
+
+.secondButton {
+    padding: 1em 2em;
+    background: #855FB1;
+    border-radius: 29px;
+    border-width: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.secondButton:hover {
+    
+    cursor: url("./../public/images/Pointer.png"), auto;
+}
