@@ -1,5 +1,5 @@
 .container {
-    width: 375px;
+    width: 100%;
     margin: 0 auto;
     padding:0 24px 64px;
     background-color: #FAFAFA;
@@ -43,7 +43,7 @@
 }
 
 .images > img {
-    width: 151px;
+    width: 45%;
     height: 143px;
     border-radius: 8px;
     margin-bottom: 24px;

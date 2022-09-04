@@ -1,5 +1,5 @@
 .container {
-    width: 375px;
+    width: 100%;
     margin: 0 auto;
     padding:0 24px 64px 24px;
     overflow: hidden;
@@ -29,7 +29,7 @@
 }
 
 .container > h1 {
-    width: 327px;
+    width: 90%;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -37,9 +37,11 @@
     text-align: center;
     color: #28283D;
     margin-bottom: 0;
+    margin: 0 auto;
 }
 
 .container > p {
+    width: 100%;
     margin-top: 24px;
     margin-bottom: 32px;
     font-style: normal;
@@ -92,6 +94,6 @@
 }
 
 .secondButton:hover {
-    
+    background: #B18BDD;
     cursor: url("./../public/images/Pointer.png"), auto;
 }
