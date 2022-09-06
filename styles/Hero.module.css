@@ -18,14 +18,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .images > img {
     width: 199px;
     height: 153px;
     margin-right: 8px;
     margin-left: 8px;
     margin-bottom: 48px;
+}
+
+.imgHeroTablet {
+    display: none;
 }
 
 .container > h1 {
@@ -96,4 +100,40 @@
 .secondButton:hover {
     background: #B18BDD;
     cursor: url("./../public/images/Pointer.png"), auto;
+}
+
+@media (min-width: 600px) {
+    .imgHeroPhone {
+        display: none;
+    }
+   
+    .imgHeroTablet {
+        display:block;
+        width: 820px !important;
+        height: 303px !important;
+    }
+
+    .container > h1 {
+        width: 339px;
+    }
+
+    .container > p {
+        width: 457px;
+        margin: 24px auto;
+    }
+
+    .buttons {
+        margin-top: 32px;
+        flex-direction: row;
+    }
+
+    .firstButton {
+        margin: 0;
+        margin-right: 0.5rem;
+    }
+
+    .secondButton {
+        margin: 0;
+        margin-left: 0.5rem;
+    }
 }

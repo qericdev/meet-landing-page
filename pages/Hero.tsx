@@ -5,8 +5,9 @@ function Hero() : JSX.Element{
         <div className={styles.container}>
             <img className={styles.logo} alt="meet" src="./../images/logo.svg"/>
             <div className={styles.images}>
-                <img alt="people" src="./../images/image-hero-left.png"/>
-                <img alt="people" src="./../images/image-hero-right.png"/>
+                <img className={styles.imgHeroPhone} alt="people" src="./../images/image-hero-left.png"/>
+                <img className={styles.imgHeroPhone} alt="people" src="./../images/image-hero-right.png"/>
+                <img className={styles.imgHeroTablet} alt="people" src="./../images/image-hero-tablet.png"/>
             </div>
             <h1>Group Chat <br/> for everyone</h1>
             <p>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
